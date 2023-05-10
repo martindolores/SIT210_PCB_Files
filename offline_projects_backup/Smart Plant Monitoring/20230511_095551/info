@@ -1,0 +1,122 @@
+{
+  "uuid": "d4efaa5ac5dd4b43c7e47eceda7e574b",
+  "path": "Offline/Smart%20Plant%20Monitoring",
+  "name": "Smart Plant Monitoring",
+  "content": "Simple PCB for temperature/light/soil moisture sensing system",
+  "created_at": "2023-05-10 16:05:25",
+  "updated_at": "2023-05-11 09:55:51",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "b325443296cffb8fdaaf56392ec23975",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "abbeaca349634102b229b66a76beaa8e": 1,
+        "4966b54c2e0b492b80cd1744d3d216a2": 1,
+        "f0ed67a027914405844ef8ff572d0090": 1,
+        "ba4069bc28d74d51a7f6d8e201782944": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "Raspberry Pi 4",
+          1,
+          "HDR2X20-REVERSED",
+          "CN1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "CANAKIT",
+            "BOM_Manufacturer": "CANAKIT",
+            "BOM_Manufacturer Part": "",
+            "puuid": "82ddf344879e4b3e8981c4db3f041158",
+            "uuid": "f0ed67a027914405844ef8ff572d0090"
+          }
+        ],
+        [
+          "Soil Moisture Sensor",
+          1,
+          "SOIL MOISTURE SENSOR",
+          "P1",
+          {
+            "BOM_Supplier Part": "12587",
+            "BOM_Supplier": "SparkFun",
+            "BOM_Manufacturer Part": "",
+            "puuid": "9e45557634814d17bbc5f4246d331d45",
+            "uuid": "ba4069bc28d74d51a7f6d8e201782944"
+          }
+        ],
+        [
+          "DHT22",
+          1,
+          "SENSOR-TH_HAIGU_DHT22",
+          "U1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C2880291",
+            "BOM_Manufacturer": "HAIGU(广州海谷)",
+            "BOM_Manufacturer Part": "DHT22",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "bfcbe79096b0410cbea5e3afa03d3279",
+            "uuid": "abbeaca349634102b229b66a76beaa8e"
+          }
+        ],
+        [
+          "BH1750",
+          1,
+          "BH1750",
+          "U2",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "RS-Online",
+            "puuid": "8c6d471db542490fb208a0c5d35d5267",
+            "uuid": "4966b54c2e0b492b80cd1744d3d216a2"
+          }
+        ]
+      ],
+      "updateTime": 1683699694,
+      "createTime": 1683698725,
+      "histories": [],
+      "created_at": "2023-05-10 16:05:25",
+      "updated_at": "2023-05-10 16:21:34"
+    },
+    {
+      "uuid": "d06b872e5afe8431fc2775cb79aebcf6",
+      "puuid": "d4efaa5ac5dd4b43c7e47eceda7e574b",
+      "title": "PCB_Smart Plant Monitoring",
+      "filename": "PCB_Smart Plant Monitoring.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "82ddf344879e4b3e8981c4db3f041158": 1,
+        "9e45557634814d17bbc5f4246d331d45": 1,
+        "bfcbe79096b0410cbea5e3afa03d3279": 1,
+        "8c6d471db542490fb208a0c5d35d5267": 1
+      },
+      "BOM": [],
+      "updateTime": 1683762951,
+      "createTime": 1683699727,
+      "histories": [],
+      "created_at": "2023-05-10 16:22:07",
+      "updated_at": "2023-05-11 09:55:51"
+    }
+  ],
+  "sort": [],
+  "title": "Smart Plant Monitoring",
+  "foldername": "Smart Plant Monitoring",
+  "schfilename": "Smart Plant Monitoring.json",
+  "schfilemtime": 1683699694884
+}

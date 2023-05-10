@@ -1,0 +1,39 @@
+{
+  "uuid": "d4efaa5ac5dd4b43c7e47eceda7e574b",
+  "path": "Offline/Smart%20Plant%20Monitoring",
+  "name": "Smart Plant Monitoring",
+  "content": "Simple PCB for temperature/light/soil moisture sensing system",
+  "created_at": "2023-05-10 16:05:25",
+  "updated_at": "2023-05-10 16:05:35",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "b325443296cffb8fdaaf56392ec23975",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "d8b4ba29d2b018668ee82006da0e0973",
+      "thumb": "/images/thumb-default.png",
+      "components": {},
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ]
+      ],
+      "updateTime": 1683698735,
+      "createTime": 1683698725,
+      "histories": [],
+      "created_at": "2023-05-10 16:05:25",
+      "updated_at": "2023-05-10 16:05:35"
+    }
+  ],
+  "sort": [],
+  "title": "Smart Plant Monitoring",
+  "foldername": "Smart Plant Monitoring",
+  "schfilename": "Smart Plant Monitoring.json",
+  "schfilemtime": 1683698735296
+}
